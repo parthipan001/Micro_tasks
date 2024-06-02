@@ -6,8 +6,7 @@ button.addEventListener('click',()=>button.classList.add('container'))*/
 var span = document.createElement('span')
 span.innerHTML = ''
 document.body.append(span)
-
-setTimeout(foo,1000)
+foo();
 
 
 function foo()
